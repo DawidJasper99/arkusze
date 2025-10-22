@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona główna</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 30px;
+            font-family: helvetica;     
+        }
+        div{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            place-items: center;
+            background-color: rgb(116, 177, 231);
+            border-radius: 11px;
+            box-shadow: 2px 2px 5px rgb(51, 51, 51);
+            padding: 5px;
+        }
+        a{
+            margin: 40px;
+            padding: 10%;
+            font-size: 32px;
+            text-decoration: none;
+            color: black;
+            transition: 0.45s;
+            width: min-content;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.493);
+            border-radius: 0.35em;
+        }
+        a:hover{
+            transform: scale(90%);
+        }
+    </style>
+</head>
+<body>
+    <h2>Formularze z arkuszy</h2>
+    <div>
+        <a href="index1.html">Arkusz 01/01/2025</a>
+        <a href="index2.html">Arkusz 02/01/2025</a>
+        <a href="index3.html">Arkusz 03/01/2025</a>
+        <a href="index4.html">Arkusz 04/01/2025</a>
+    </div>
+</body>
+</html>

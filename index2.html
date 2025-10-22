@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkusz 02/01/2025</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kalkulator kosztów montażu</h1>
+    <form>
+        <label for="szerokosc">Szerokość pomieszczenia [m]: </label>
+        <input type="number" id="szerokosc">
+        <label for="dlugosc">Długość pomieszczenia [m]: </label>
+        <input type="number" id="dlugosc">
+        <p>Typ panelu</p>
+        <input type="radio" value="lamin" id="radio" name="radio"><label for="lamin">Panele laminowane</label><br>
+        <input type="radio" value="winyl" id="radio" name="radio"><label for="winyl">Panele winylowe</label><br>
+        <input type="radio" value="deska" id="radio" name="radio"><label for="deska">Deska podłogowa</label><br>
+        <input type="submit" value="Oblicz" id="oblicz">
+    </form>
+    <p></p>
+    <a href="index.html">Powrót</a>
+</body>
+</html>
