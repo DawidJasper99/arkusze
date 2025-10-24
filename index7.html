@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arkusz 3</title>
+    <title>Arkusz 8</title>
     <style>
         body{
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h2>Sprawdź kto ma urodziny</h2>
     <form>
-        <input type="date" min="2024-01-01" max="2024-12-31" required>
-        <input type="submit" value="Wyślij">
+        <label for="data1">Data odbioru od: </label>
+        <input type="date" id="data1">
+        <label for="data2">do: </label>
+        <input type="date" id="data2">
+        <input type="submit" value="Wyszukaj">
     </form><br>
     <a href="index.html">Powrót</a>
 </body>
